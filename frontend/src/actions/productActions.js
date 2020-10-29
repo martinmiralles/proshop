@@ -13,7 +13,7 @@ export const listProducts = () => async (dispatch) => {
 
     // If above response is successful, then dispatch will occur
     dispatch({
-      type: PRODUCT_LIST_REQUEST,
+      type: PRODUCT_LIST_SUCCESS,
       payload: data,
     });
   } catch (error) {
