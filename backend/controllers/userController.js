@@ -98,8 +98,6 @@ const updateUserProfile = asyncHandler(async (req, res) => {
       isAdmin: updatedUser.isAdmin,
       token: generateToken(updatedUser._id),
     });
-
-    res;
   } else {
     res.status(404);
     throw new Error("User not found");

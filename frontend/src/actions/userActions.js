@@ -99,7 +99,7 @@ export const getUserDetails = (id) => async (dispatch, getState) => {
     });
 
     const {
-      usuerLogin: { userInfo },
+      userLogin: { userInfo },
     } = getState();
 
     const config = {
