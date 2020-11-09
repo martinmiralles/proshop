@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 });
 
 // All routes must be placed (mounted) here
-app.use("/api/products", productRoutes);
+app.use("/api/products/", productRoutes);
 app.use("/api/users/", userRoutes);
 app.use("/api/orders/", orderRoutes);
 
