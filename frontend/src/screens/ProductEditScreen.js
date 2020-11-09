@@ -137,6 +137,7 @@ const ProductEditScreen = ({ match, history }) => {
                 value={image}
                 onChange={(e) => setImage(e.target.value)}
               ></Form.Control>
+              <br></br>
               <Form.File
                 id="image-file"
                 label="Choose File"
