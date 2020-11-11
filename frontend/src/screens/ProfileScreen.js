@@ -6,7 +6,7 @@ import Message from "../components/Message.js";
 import Loader from "../components/Loader.js";
 import { getUserDetails, updateUserProfile } from "../actions/userActions.js";
 import { listMyOrders } from "../actions/orderActions.js";
-import { USER_UPDATE_PROFILE_RESET } from "../actions/userActions.js";
+import { USER_UPDATE_PROFILE_RESET } from "../constants/userConstants.js";
 
 const ProfileScreen = ({ location, history }) => {
   const [name, setName] = useState("");
